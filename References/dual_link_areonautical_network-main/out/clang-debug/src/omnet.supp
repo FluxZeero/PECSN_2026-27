@@ -1,0 +1,11 @@
+{
+    omnet
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   fun:_ZN7omnetpp12_GLOBAL__N_119__onstartup_func_54Ev
+   fun:_ZN7omnetpp13CodeFragments10executeAllENS0_4TypeE
+   fun:_ZN7omnetpp5envir18setupUserInterfaceEiPPc
+   fun:evMain
+   fun:main
+}
